@@ -34,10 +34,10 @@ export default class App extends React.Component {
           </Body>
         </Header>
         <Tabs>
-          <PlantDashboard heading="Basil" />
-          <PlantDashboard heading="Thyme" />
-          <PlantDashboard heading="Mint" />
-          <PlantDashboard heading="Sage" />
+          <PlantDashboard heading="Basil" plantId={1} />
+          <PlantDashboard heading="Thyme" plantId={2} />
+          <PlantDashboard heading="Mint" plantId={3} />
+          <PlantDashboard heading="Sage" plantId={4} />
         </Tabs>
       </Container>
     );
